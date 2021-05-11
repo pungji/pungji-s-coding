@@ -43,10 +43,10 @@ public class JavaTitle2 {
 			}
 			public void Html(String n){
 				if(n.equals("div")) {
-					System.out.println("div 는 inline이고 <div>쓰고 싶은 말</div> 라고 씁니다.");
+					System.out.println("div 는 block이고 <div>쓰고 싶은 말</div> 라고 씁니다.");
 				}
 				if(n.equals("span")) {
-					System.out.println("div 는 inline이고 <span>쓰고 싶은 말</span> 라고 씁니다.");
+					System.out.println("span 는 inline이고 <span>쓰고 싶은 말</span> 라고 씁니다.");
 				}
 				
 				
@@ -100,7 +100,7 @@ Hyeonjun:		while(true) {
 				input1=chs.nextInt();
 				vl.Num(input1);	
 				
-						break Hyeonjun;
+				
 				}
 				
 				
